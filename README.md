@@ -21,7 +21,7 @@ NVM 的图形桌面壳，双击换版本，零依赖拿走即用
 
 ## Quick Start
 
-1. Download the latest `nvm-desk.zip` from [Releases]((https://github.com/MY0279/nvm-desk.git))
+1. Download the latest `nvm-desk.zip` from [Releases](https://github.com/MY0279/nvm-desk.git)
 2. Extract to anywhere
 3. Double-click `nvm-desk.exe`
 
