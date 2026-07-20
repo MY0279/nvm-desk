@@ -2,6 +2,7 @@
 
 #### 介绍
 NVM 的图形桌面壳，双击换版本，零依赖拿走即用
+<img width="1034" height="876" alt="image" src="https://github.com/user-attachments/assets/8ebf1f58-5cc0-4c35-a230-6306c52d72ad" />
 
 # nvm-desk
 
