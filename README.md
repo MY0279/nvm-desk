@@ -1,28 +1,23 @@
 # nvm-desk
 
-#### 介绍
-NVM 的图形桌面壳，双击换版本，零依赖拿走即用
-<img width="1034" height="876" alt="image" src="https://github.com/user-attachments/assets/8ebf1f58-5cc0-4c35-a230-6306c52d72ad" />
-
-# nvm-desk
-
-> A minimal GUI wrapper for NVM-Windows — view, list, and switch Node.js versions at a glance.
+> A minimal GUI wrapper for NVM-Windows — switch, install, and manage Node.js versions without opening a terminal.
 
 ## Why
 
-`nvm use <version>` is easy to forget when you only touch Node.js once in a while. nvm-desk gives you a single window: all installed versions in one list, the current one highlighted, and a one-click switch button. No terminal, no memorizing commands.
+`nvm use <version>` is easy to forget when you only touch Node.js once in a while. nvm-desk gives you a clean window with two tabs: all your installed versions with one-click switch/delete, plus a live catalog of every Node.js release you can install. No terminal, no memorizing commands.
 
 ## Features
 
-- **Zero dependencies** — built with PowerShell + Windows Forms, runs on Windows out of the box
-- **Single executable** — icon embedded, double-click and go; no installation
-- **Portable** — the entire folder can be copied, shared, or put on a USB stick; works anywhere
-- **One-click switch** — pick a version, click, confirm UAC, done
-- **Lightweight** — ~24 KB exe
+- **Two-tab layout** — Installed versions with Switch & Delete; Available Online with one-click Install
+- **Auto mirror** — reads `node_mirror` from nvm's `settings.txt`, works out of the box with npmmirror
+- **Resizable window** — drag edges or maximize, layout adapts via anchor-based scaling
+- **Portable** — just `nvm-desk.exe` + `nvm_manager.ps1`, copy the folder anywhere and run
+- **Zero dependencies** — built with PowerShell + Windows Forms, ships with Windows
+- **Lightweight** — ~24 KB exe + 24 KB script
 
 ## Quick Start
 
-1. Download the latest `nvm-desk.zip` from [Releases](https://github.com/MY0279/nvm-desk.git)
+1. Download the latest `nvm-desk.zip` from [Releases](https://gitee.com/code-ape-hc/nvm-desk/releases)
 2. Extract to anywhere
 3. Double-click `nvm-desk.exe`
 
@@ -36,9 +31,9 @@ NVM 的图形桌面壳，双击换版本，零依赖拿走即用
 
 ```
 nvm-desk/
-├── nvm-desk.exe       # Launcher (embedded icon, relative path)
-├── nvm_manager.ps1    # GUI script
-└── nvm_icon.ico       # Icon source
+├── nvm-desk.exe       # C# launcher (relative path to nvm_manager.ps1)
+├── nvm_manager.ps1    # GUI script (PowerShell + Windows Forms)
+└── nvm_icon.ico       # Icon source (embedded into exe at build time)
 ```
 
 ## Disclaimer
@@ -47,4 +42,3 @@ nvm-desk/
 
 ## Author
 rrfhecong@163.com
-
