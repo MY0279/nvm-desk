@@ -24,8 +24,8 @@
 > 需要已安装并配置 [NVM-Windows](https://github.com/coreybutler/nvm-windows)。
 
 ## 截图
-
->（在此处添加截图）
+<img width="1144" height="1132" alt="0331c453f35b6c33c4618a08fa155cc5" src="https://github.com/user-attachments/assets/0d7d1fe5-4053-41e3-b8d7-b9d05925dbe8" />
+<img width="1378" height="1180" alt="f62f77a646fd4ca1faabcaa90cf767d1" src="https://github.com/user-attachments/assets/b3b2673b-fa6d-4978-9895-9b14b97c39cf" />
 
 ## 目录结构
 
